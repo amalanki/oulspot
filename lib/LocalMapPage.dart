@@ -73,8 +73,8 @@ class _LocalMapPageState extends State<LocalMapPage> {
         ),
       ),
       Marker(
-        width: 80.0,
-        height: 80.0,
+        width: 70.0,
+        height: 70.0,
         point: LatLng(_data[1].lat, _data[1].lng),
         builder: (ctx) => Container(
           child: FlutterLogo(),

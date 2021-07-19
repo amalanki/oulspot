@@ -58,7 +58,7 @@ class _SignUpState extends State<SignUp> {
                     /*decoration: BoxDecoration(
                         color: Colors.brown,
                         borderRadius: BorderRadius.circular(50.0)),*/
-                    child: Image.asset('../asset/images/logo.jpg')),
+                    child: Image.asset('../asset/images/logospot1.png')),
               ),
             ),
             Padding(

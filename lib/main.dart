@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'AboutPage.dart';
 import 'SignUp.dart';
+import 'HomePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,7 +41,7 @@ class _LoginDemoState extends State<LoginDemo> {
                     /*decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(50.0)),*/
-                    child: Image.asset('../asset/images/logo.jpg')),
+                    child: Image.asset('../asset/images/logospot1.png')),
               ),
             ),
             Padding(
@@ -83,7 +83,7 @@ class _LoginDemoState extends State<LoginDemo> {
               child: TextButton(
                 onPressed: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => SignUp()));
+                      context, MaterialPageRoute(builder: (_) => HomePage()));
                 },
                 child: Text(
                   'Login',
@@ -97,7 +97,7 @@ class _LoginDemoState extends State<LoginDemo> {
             TextButton(
               onPressed: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => AboutPage()));
+                    context, MaterialPageRoute(builder: (_) => SignUp()));
               },
               child: Text(
                 'Create an account',
